@@ -102,7 +102,7 @@ function createCard()
 	return healthCard
 end
 
-
+--[[
 
 local healthCard = createCard()
 
@@ -110,3 +110,4 @@ healthCard:UpdateName("HappyFish")
 healthCard:UpdateIcon(5615662055)
 healthCard:UpdateHealth(150, 40)
 healthCard:UpdateHealth(150, 100)
+]]
