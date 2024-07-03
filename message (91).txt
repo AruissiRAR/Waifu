@@ -1,11 +1,11 @@
 -- // this was not made by ray! credits to: xn90ubwbzuqegtn aka vfishyturtle \\ --
 
+local LegitBotCard = Instance.new('ScreenGui', gethui())
+
 function createCard()
 	
 	local healthCard = {}
 	local mouse = game:GetService('Players').LocalPlayer:GetMouse()
-	
-	local LegitBotCard = Instance.new('ScreenGui', gethui())
 	local Main = Instance.new('Frame', LegitBotCard)
 	local MainStroke = Instance.new('UIStroke', Main)
 	local MainCorner = Instance.new('UICorner', Main)
